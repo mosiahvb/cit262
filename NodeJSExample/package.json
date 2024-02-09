@@ -1,0 +1,11 @@
+{
+  "name": "nodejsexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello":"node helloworld.js" 
+  },
+  "author": "mosiah valdez",
+  "license": "ISC"
+}

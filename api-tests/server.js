@@ -1,7 +1,7 @@
 const express = require( 'express');
 const app = express();//app
 app.get("/", (req, res) =>{
-    res.send("Welcome to my Sean's backend application");
+    res.send("Welcome to my mosiah's backend application");
 });
 
 app.get("/mosiah", (req, res) =>{

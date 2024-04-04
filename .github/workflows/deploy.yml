@@ -61,7 +61,7 @@ jobs:
     # Push the Docker image to Google Container Registry
     - name: Publish
       run: |-
-        docker push "us-docker.pkg.dev/${PROJECT_ID}/mosiah-api/api-tests:latest"
+        docker push "us-docker.pkg.dev/my-project-w12-418722/mosiah-api/api-tests:latest"
 
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
